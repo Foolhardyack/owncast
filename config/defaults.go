@@ -47,9 +47,9 @@ func GetDefaults() Defaults {
 	defaultStreamKey := "abc123"
 	defaultStreamKeyComment := "Default stream key"
 	return Defaults{
-		Name:                 "New Owncast Server",
-		Summary:              "This is a new live video streaming server powered by Owncast.",
-		ServerWelcomeMessage: "",
+		Name:                 "Streaming Server",
+		Summary:              "A student streaming server developed for an Operating Systems project at PUP Taguig.",
+		ServerWelcomeMessage: "Whazzup Gang, Welcome to My Channel. Like and Subscribe",
 		Logo:                 "logo.svg",
 		AdminPassword:        "abc123",
 		StreamKeys: []models.StreamKey{
@@ -96,7 +96,7 @@ func GetDefaults() Defaults {
 			},
 		},
 
-		FederationUsername:      "streamer",
-		FederationGoLiveMessage: "I've gone live!",
+		FederationUsername:      "Podcaster",
+		FederationGoLiveMessage: "Me is here, Watch me",
 	}
 }
